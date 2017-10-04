@@ -19,7 +19,7 @@
     "yiisoft/yii2-bootstrap": "^2.0.0",
     "yiisoft/yii2-jui": "^2.0@dev",
     "skeeks/yii2-dadata-suggest-api": "*",
-    "gietos/dadata": "dev-master"
+    "gietos/dadata": "^1.1.9"
   },
   "autoload": {
     "psr-4": {
