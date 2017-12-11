@@ -80,4 +80,14 @@ class DadataService extends Component
         
         return self::GENDER_UNKNOWN;
     }
+
+    /**
+     * Подсказка по имени
+     * @param  string $name имя одной строкой
+     * @return Name
+     */
+    public function cleanName($name)
+    {
+        return $this->client->cleanName($name);
+    }
 }
