@@ -18,12 +18,11 @@
     "yiisoft/yii2": "*",
     "yiisoft/yii2-bootstrap": "^2.0.0",
     "yiisoft/yii2-jui": "^2.0@dev",
-    "skeeks/yii2-dadata-suggest-api": "*",
-    "gietos/dadata": "^1.1.9"
+    "skeeks/yii2-dadata-suggest-api": "*"
   },
   "autoload": {
     "psr-4": {
-      "mirkhamidov\\dadata\\": ""
+      "mirkhamidov\\dadata\\": "src/"
     }
   },
   "extra": {

@@ -4,10 +4,7 @@ namespace mirkhamidov\dadata\widgets;
 
 
 use mirkhamidov\dadata\ModuleTrait;
-use Yii;
 use yii\helpers\ArrayHelper;
-use yii\helpers\Html;
-use yii\web\JsExpression;
 use yii\widgets\InputWidget;
 use yii\jui\AutoComplete;
 

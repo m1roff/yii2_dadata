@@ -60,7 +60,7 @@ class GeoContinent extends \yii\db\ActiveRecord
      */
     public function getGeoCountries()
     {
-        return $this->hasMany(GeoCountry::className(), ['id_continent' => 'id']);
+        return $this->hasMany(GeoCountry::class, ['id_continent' => 'id']);
     }
 
     /**

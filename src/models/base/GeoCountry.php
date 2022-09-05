@@ -38,7 +38,7 @@ class GeoCountry extends \yii\db\ActiveRecord
             [['created_at', 'updated_at'], 'safe'],
             [['code'], 'string', 'max' => 5],
             [['name_ru', 'name_en'], 'string', 'max' => 255],
-            [['id_continent'], 'exist', 'skipOnError' => true, 'targetClass' => GeoContinent::className(), 'targetAttribute' => ['id_continent' => 'id']],
+            [['id_continent'], 'exist', 'skipOnError' => true, 'targetClass' => GeoContinent::class, 'targetAttribute' => ['id_continent' => 'id']],
         ];
     }
 
@@ -63,7 +63,7 @@ class GeoCountry extends \yii\db\ActiveRecord
      */
     public function getIdContinent()
     {
-        return $this->hasOne(GeoContinent::className(), ['id' => 'id_continent']);
+        return $this->hasOne(GeoContinent::class, ['id' => 'id_continent']);
     }
 
     /**

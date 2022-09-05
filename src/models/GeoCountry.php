@@ -19,7 +19,7 @@ class GeoCountry extends \mirkhamidov\dadata\models\base\GeoCountry
     {
         return [
             [
-                'class' => TimestampBehavior::className(),
+                'class' => TimestampBehavior::class,
                 'value' => new Expression('NOW()'),
             ],
         ];
@@ -31,7 +31,7 @@ class GeoCountry extends \mirkhamidov\dadata\models\base\GeoCountry
      */
     public function getIdContinent()
     {
-        return $this->hasOne(GeoContinent::className(), ['id' => 'id_continent']);
+        return $this->hasOne(GeoContinent::class, ['id' => 'id_continent']);
     }
 
 }
