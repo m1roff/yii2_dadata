@@ -1,11 +1,11 @@
 <?php
 
-namespace mirkhamidov\dadata\models\query;
+namespace m1roff\dadata\models\query;
 
 /**
- * This is the ActiveQuery class for [[\mirkhamidov\dadata\models\GeoCountry]].
+ * This is the ActiveQuery class for [[\m1roff\dadata\models\GeoCountry]].
  *
- * @see \mirkhamidov\dadata\models\GeoCountry
+ * @see \m1roff\dadata\models\GeoCountry
  */
 class GeoCountryQuery extends \yii\db\ActiveQuery
 {
@@ -16,7 +16,7 @@ class GeoCountryQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return \mirkhamidov\dadata\models\GeoCountry[]|array
+     * @return \m1roff\dadata\models\GeoCountry[]|array
      */
     public function all($db = null)
     {
@@ -25,7 +25,7 @@ class GeoCountryQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return \mirkhamidov\dadata\models\GeoCountry|array|null
+     * @return \m1roff\dadata\models\GeoCountry|array|null
      */
     public function one($db = null)
     {

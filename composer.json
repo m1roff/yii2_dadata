@@ -1,17 +1,17 @@
 {
-  "name": "mirkhamidov/yii2-dadata",
+  "name": "m1roff/yii2-dadata",
   "description": "Handy module for using dadata.ru service",
   "type": "yii2-extension",
   "keywords": ["yii2","extension","dadata", "suggestion"],
   "license": "MIT",
   "minimum-stability": "stable",
   "support": {
-    "source": "https://github.com/mirkhamidov/yii2-dadata"
+    "source": "https://github.com/m1roff/yii2-dadata"
   },
   "authors": [
     {
-      "name": "Jasur Mirkhamidov",
-      "email": "mirkhamidov.jasur@gmail.com"
+      "name": "Miroff",
+      "email": "m@miroff.su"
     }
   ],
   "require": {
@@ -22,10 +22,16 @@
   },
   "autoload": {
     "psr-4": {
-      "mirkhamidov\\dadata\\": "src/"
+      "m1roff\\dadata\\": "src/"
     }
   },
+  "archive": {
+    "exclude": [
+      ".gitignore",
+      "composer.lock"
+    ]
+  },
   "extra": {
-    "bootstrap": "mirkhamidov\\dadata\\Bootstrap"
+    "bootstrap": "m1roff\\dadata\\Bootstrap"
   }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace mirkhamidov\dadata;
+namespace m1roff\dadata;
 
 use Yii;
 use Exception;

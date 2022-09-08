@@ -1,16 +1,16 @@
 <?php
 
-namespace mirkhamidov\dadata\widgets;
+namespace m1roff\dadata\widgets;
 
 
-use mirkhamidov\dadata\ModuleTrait;
+use m1roff\dadata\ModuleTrait;
 use yii\helpers\ArrayHelper;
 use yii\widgets\InputWidget;
 use yii\jui\AutoComplete;
 
 /**
  * Class SuggestWidget
- * @package mirkhamidov\dadata\widgets
+ * @package m1roff\dadata\widgets
  *
  * @mixin ModuleTrait
  */

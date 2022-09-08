@@ -1,11 +1,11 @@
 <?php
 
-namespace mirkhamidov\dadata\models\query;
+namespace m1roff\dadata\models\query;
 
 /**
- * This is the ActiveQuery class for [[\mirkhamidov\dadata\models\GeoContinent]].
+ * This is the ActiveQuery class for [[\m1roff\dadata\models\GeoContinent]].
  *
- * @see \mirkhamidov\dadata\models\GeoContinent
+ * @see \m1roff\dadata\models\GeoContinent
  */
 class GeoContinentQuery extends \yii\db\ActiveQuery
 {
@@ -16,7 +16,7 @@ class GeoContinentQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return \mirkhamidov\dadata\models\GeoContinent[]|array
+     * @return \m1roff\dadata\models\GeoContinent[]|array
      */
     public function all($db = null)
     {
@@ -25,7 +25,7 @@ class GeoContinentQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return \mirkhamidov\dadata\models\GeoContinent|array|null
+     * @return \m1roff\dadata\models\GeoContinent|array|null
      */
     public function one($db = null)
     {

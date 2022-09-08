@@ -1,6 +1,6 @@
 <?php
 
-namespace mirkhamidov\dadata\models;
+namespace m1roff\dadata\models;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
@@ -12,7 +12,7 @@ use yii\db\Expression;
  *
  * @property GeoContinent $idContinent
  */
-class GeoCountry extends \mirkhamidov\dadata\models\base\GeoCountry
+class GeoCountry extends \m1roff\dadata\models\base\GeoCountry
 {
     /** @inheritdoc */
     public function behaviors()

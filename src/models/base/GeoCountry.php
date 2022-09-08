@@ -1,6 +1,6 @@
 <?php
 
-namespace mirkhamidov\dadata\models\base;
+namespace m1roff\dadata\models\base;
 
 use Yii;
 
@@ -68,10 +68,10 @@ class GeoCountry extends \yii\db\ActiveRecord
 
     /**
      * @inheritdoc
-     * @return \mirkhamidov\dadata\models\query\GeoCountryQuery the active query used by this AR class.
+     * @return \m1roff\dadata\models\query\GeoCountryQuery the active query used by this AR class.
      */
     public static function find()
     {
-        return new \mirkhamidov\dadata\models\query\GeoCountryQuery(get_called_class());
+        return new \m1roff\dadata\models\query\GeoCountryQuery(get_called_class());
     }
 }

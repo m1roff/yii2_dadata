@@ -7,7 +7,7 @@
 ```php
 'modules' => [
     'dadata' => [
-        'class' => 'mirkhamidov\dadata\Module',
+        'class' => 'm1roff\dadata\Module',
         'token' => '',
         'secret' => '',
     ],

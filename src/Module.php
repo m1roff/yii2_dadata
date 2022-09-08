@@ -1,6 +1,6 @@
 <?php
 
-namespace mirkhamidov\dadata;
+namespace m1roff\dadata;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -22,7 +22,7 @@ class Module extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'mirkhamidov\dadata\controllers';
+    public $controllerNamespace = 'm1roff\dadata\controllers';
     
     /**
      * @var string The prefix for user module URL.

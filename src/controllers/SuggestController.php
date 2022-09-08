@@ -1,9 +1,9 @@
 <?php
 
-namespace mirkhamidov\dadata\controllers;
+namespace m1roff\dadata\controllers;
 
-use mirkhamidov\dadata\models\GeoCountry;
-use mirkhamidov\dadata\ModuleTrait;
+use m1roff\dadata\models\GeoCountry;
+use m1roff\dadata\ModuleTrait;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\web\Controller;
@@ -11,7 +11,7 @@ use yii\web\Response;
 
 /**
  * Class SuggestController
- * @package mirkhamidov\dadata\controllers
+ * @package m1roff\dadata\controllers
  *
  * @mixin ModuleTrait
  */
